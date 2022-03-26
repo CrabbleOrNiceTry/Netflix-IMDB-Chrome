@@ -5,7 +5,8 @@
 
 // Dictionary with alreadyt queried movies (key) and their respective IMDB rating (value)
 
-let APIKey;
+// let APIKey;
+const APIKey = "7177a536";
 
 // function onError(error) {
 //     console.log(`Error: ${error}`);
@@ -20,7 +21,7 @@ let APIKey;
 // }
 
 // let getting;
-chrome.storage.sync.get("APIKey", function (result) { APIKey = result.APIKey });
+// chrome.storage.sync.get("APIKey", function (result) { APIKey = result.APIKey });
 // getting.then(onGot, onError);
 
 var movieDict = {};
